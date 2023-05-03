@@ -1,3 +1,20 @@
 @use 'reset';
 @use 'fonts';
 @use 'index' as *;
+
+html {
+  @include desktop {
+    font-size: min(6.25%, calc(20px / 16));
+  }
+
+  @include mobile {
+    font-size: min(6.25%, calc(32px / 16));
+  }
+}
+
+body {
+  background: map-get($palette, 'canvas');
+  font-family: 'Inter', sans-serif;
+  color: map-get($palette, 'text');
+  display: grid;
+}
