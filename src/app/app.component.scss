@@ -1,0 +1,127 @@
+@use 'index' as *;
+
+$hero-mobile-width: 327px;
+$hero-mobile-height: 240px;
+$hero-desktop-width: 540px;
+$hero-desktop-height: 446px;
+
+:host {
+  margin: auto;
+  display: flex;
+  background: map-get($palette, 'background');
+  border-radius: 8px;
+
+  @include mobile {
+    width: $hero-mobile-width;
+    flex-direction: column;
+  }
+
+  @include desktop {
+    height: $hero-desktop-height;
+    flex-direction: row-reverse;
+  }
+}
+
+.hero {
+  opacity: .75;
+  mix-blend-mode: multiply;
+
+  @include mobile {
+    width: $hero-mobile-width;
+    height: $hero-mobile-height;
+  }
+
+  @include desktop {
+    width: $hero-desktop-width;
+    height: $hero-desktop-height;
+  }
+
+  &-container {
+    background: map-get($palette, 'accent');
+
+    @include mobile {
+      border-radius: 8px 8px 0 0;
+    }
+  
+    @include desktop {
+      border-radius: 0 8px 8px 0;
+    }
+  }
+}
+
+.keyword {
+  color: map-get($palette, 'accent');
+}
+
+.main {
+  @include mobile {
+    padding: 40px 32px 32px;
+    text-align: center;
+  }
+
+  @include desktop {
+    padding: 72px 100px 60px 72px;
+  }
+}
+
+.title {
+  font-weight: 700;
+
+  @include mobile {
+    font-size: 28rem;
+    line-height: 32rem;
+  }
+
+  @include desktop {
+    font-size: 36rem;
+    line-height: 44rem;
+    width: 400rem;
+  }
+}
+
+.body {
+  font-size: 15px;
+  line-height: 25px;
+  opacity: .75;
+
+  @include mobile {
+    margin-top: 16rem;
+  }
+
+  @include desktop {
+    margin-top: 24rem;
+    width: 376rem;
+  }
+}
+
+.list {
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    margin-top: 40rem;
+    gap: 24rem;
+  }
+
+  @include desktop {
+    margin-top: 72rem;
+    gap: 64rem;
+  }
+
+  >div {
+    >dt {
+      font-weight: 700;
+      font-size: 24rem;
+      line-height: 29rem;
+    }
+
+    >dd {
+      font-family: 'Lexend Deca';
+      font-size: 12rem;
+      line-height: 25rem;
+      letter-spacing: 1rem;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+  }
+}
