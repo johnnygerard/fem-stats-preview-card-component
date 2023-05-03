@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fem-stats-preview-card-component';
+  protected readonly ikBaseURL = `https://ik.imagekit.io/jgerard/${this.title}`;
 }
