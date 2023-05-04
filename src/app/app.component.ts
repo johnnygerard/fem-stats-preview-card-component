@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'fem-stats-preview-card-component';
-  protected readonly ikBaseURL = `https://ik.imagekit.io/jgerard/${this.title}`;
+  protected readonly ikBaseURL = 'https://ik.imagekit.io/jgerard/fem-stats-preview-card-component';
 }
