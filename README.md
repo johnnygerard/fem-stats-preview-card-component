@@ -1,7 +1,7 @@
 # Frontend Mentor | Stats preview card component
 This is my solution to the [Stats preview card component challenge](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)](https://fem-stats-preview-card-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://www.frontendmentor.io/solutions/stats-preview-card-component-JzRGWqYS2H)
 
 ## Tech Stack
  - Angular
@@ -14,15 +14,13 @@ This is my solution to the [Stats preview card component challenge](https://www.
 ## Links
  - [Website](https://fem-stats-preview-card-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
  - Images served from [ImageKit](https://imagekit.io/) CDN
- - [Solution]()
+ - [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-JzRGWqYS2H)
 
-## Scrolling screenshots
+## Screenshots
 ### Desktop
-![desktop scrolling screenshot](screenshots/screenshot-desktop.webp)
-### Tablet
-![tablet scrolling screenshot](screenshots/screenshot-tablet.webp)
+![desktop screenshot](screenshots/screenshot-desktop.webp)
 ### Mobile
-![mobile scrolling screenshot](screenshots/screenshot-mobile.webp)
+![mobile screenshot](screenshots/screenshot-mobile.webp)
 
 ## About Frontend Mentor
 [Frontend Mentor](https://www.frontendmentor.io/) challenges help you improve your coding skills by building realistic projects.
